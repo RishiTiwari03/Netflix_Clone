@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: aliceblue;
+        }
+        .navigation {
+            width: 98vw;
+            height: 13vh;
+            display: flex;
+            flex-wrap:wrap;
+            flex-flow: row;
+            justify-content: space-around;
+            align-items: center;
+            font-weight: 700;
+            font-size: large;
+        }
+
+        .netlogo {
+            max-height: 100%;
+        }
+        .navbox{
+            background-color: rgba(0, 0, 0, 0.815);
+            padding: 5px;
+            border-radius: 6px;
+        }
+        .red{
+            background-color: rgba(234, 23, 23, 0.847);
+        }
+        .white{
+            border: 0.1px solid white;
+            padding: 4px 30px;
+            text-align: center;
+
+        }
+        header{
+            height: 98vh;
+            width: 100vw;
+            background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpg);
+            background-position: center;
+        }
+        .text{
+            display: flex;
+            flex-flow:column;
+            align-items: center;
+            justify-content: center;
+            gap: 10vh;
+            height: 80vh;
+            width: 70vw;
+            font-weight: 700;
+            
+            margin: auto auto;
+         
+        }
+    </style>
+</head>
+
+<body style="background-color: rgba(0, 0, 0, 0.945);">
+    <header>
+        <nav class="navigation">
+            <img class="netlogo" src="netflixlogo.jpg" alt="No image">
+          <div style="display: inherit;">
+            <div style="margin: 0px 13px;" class="navbox white">English <img src="arrow.svg" height="10px" style="background-color: white;"> </div>
+            <div style="margin: 0px 13px;" class="navbox red">Sign up</div>
+        </div>
+        </nav>
+        <div class="text">
+            <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" >Unlimited movies, TV shows and more</div>
+            <div>Watch anywhere. Cancel anytime.</div>
+            <div>Ready to watch? Enter your email to create or restart your membership.</div>
+            <div> <input type="email" name="email" id="email" placeholder="Email"> <label for="button">lref</label><button>redfe</button></div>
+
+        </div>
+    </header>
+</body>
+
+</html>
